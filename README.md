@@ -179,8 +179,8 @@ rh.pal
     ##     }
     ##     pf(rescaled)
     ## }
-    ## <bytecode: 0x7f89b8cd3e98>
-    ## <environment: 0x7f89b8cd6758>
+    ## <bytecode: 0x7f99ef6b92e0>
+    ## <environment: 0x7f99ef6bbc10>
     ## attr(,"colorType")
     ## [1] "numeric"
     ## attr(,"colorArgs")
@@ -205,7 +205,7 @@ rhmap <- leaflet(top10rh) %>%
   addLegend('bottomleft', pal=rh.pal, values=met_avg$rh,
           title='Relative Humidity', opacity=1)
 
-rhmap
+rhmap 
 ```
 
 ![](README_files/figure-gfm/unnamed-chunk-3-1.png)<!-- -->

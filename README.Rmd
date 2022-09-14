@@ -125,6 +125,6 @@ rhmap <- leaflet(top10rh) %>%
   addLegend('bottomleft', pal=rh.pal, values=met_avg$rh,
           title='Relative Humidity', opacity=1)
 
-rhmap
+rhmap 
 ```
 
